@@ -6,6 +6,7 @@
 
 h1,
 h2,
+h3,
 p {
   margin: 0;
 }
@@ -37,6 +38,15 @@ body {
 .container-content {
   max-width: 970px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #4e5665;
 }
 
 .section-line {
@@ -132,12 +142,6 @@ body {
 }
 
 .reason-title {
-  font-family: 'Georgia';
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-  color: #4e5665;
   margin-bottom: 22px;
 }
 
@@ -173,4 +177,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #909090;
+}
+
+.about-title {
+  margin-bottom: 13px;
 }

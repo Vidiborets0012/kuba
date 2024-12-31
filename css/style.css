@@ -182,3 +182,88 @@ body {
 .about-title {
   margin-bottom: 13px;
 }
+
+.about-text {
+  margin-bottom: 71px;
+}
+
+.about-item {
+  margin-bottom: 100px;
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.about-box {
+  padding: 33px 40px;
+  background-color: #fff;
+  max-width: 470px;
+  position: relative;
+}
+
+.about-box::before,
+.about-box::after {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 33px;
+}
+
+.about-box::before {
+  background-image: url('../images/about-dekor-left.svg');
+  /* border-top: 2px solid #ecb84c;
+  border-left: 2px solid #ecb84c; */
+  top: 19px;
+  left: 19px;
+}
+
+.about-box::after {
+  background-image: url('../images/about-dekor-right.svg');
+  /* border-right: 2px solid #ecb84c;
+  border-bottom: 2px solid #ecb84c; */
+  right: 19px;
+  bottom: 19px;
+}
+
+.about-box-title {
+  font-family: 'Georgia';
+  font-size: 24px;
+  line-height: 25px;
+  color: #4e5665;
+  margin-bottom: 20px;
+}
+
+.about-item:nth-child(even) {
+  background-position: left;
+}
+
+.about-item:nth-child(even) .about-box {
+  margin-left: auto;
+}
+
+/* .about-item:nth-child(even) .about-box::before {
+  right: 19px;
+  left: auto;
+  background-image: none;
+  border-top: 2px solid #ecb84c;
+  border-right: 2px solid #ecb84c;
+}
+
+.about-item:nth-child(even) .about-box::after {
+  left: 19px;
+  border-right: none;
+  border-left: 2px solid #ecb84c;
+} */
+
+.about-item:nth-child(even) .about-box::before {
+  background-image: url('../images/about-dekor-left2.svg');
+  top: auto;
+  left: 19px;
+  bottom: 19px;
+}
+
+.about-item:nth-child(even) .about-box::after {
+  background-image: url('../images/about-dekor-right2.svg');
+  right: 19px;
+  top: 19px;
+}

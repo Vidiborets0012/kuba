@@ -7,12 +7,18 @@
 h1,
 h2,
 h3,
+h5,
 p {
   margin: 0;
 }
 
 ul {
   list-style-type: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -319,4 +325,22 @@ body {
 
 .slick-next {
   right: -20px;
+}
+
+.footer {
+  padding-top: 56px;
+  padding-bottom: 32px;
+  background-color: #f8f8f8;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
 }

@@ -280,6 +280,86 @@ body {
   margin-bottom: 38px;
 }
 
+.about-images-box {
+  padding-top: 73px;
+  position: relative;
+}
+
+.about-dot {
+  /* display: block; */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(236, 184, 76, 0.75);
+  position: absolute;
+  cursor: pointer;
+}
+
+.about-dot-1 {
+  top: 190px;
+  left: 190px;
+}
+
+.about-dot-2 {
+  top: 188px;
+  left: 495px;
+}
+
+.about-dot-3 {
+  top: 147px;
+  right: 374px;
+}
+
+.about-dot-4 {
+  bottom: 28px;
+  right: 299px;
+}
+
+.about-dot::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 214, 0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-dot::before {
+  content: '';
+  /* display: block; */
+  position: absolute;
+  background-image: url('../images/about-line.svg');
+  width: 244px;
+  height: 122px;
+  top: -113px;
+  left: 25px;
+  display: none;
+}
+
+.about-dot-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #505050;
+  position: absolute;
+  white-space: nowrap;
+  top: -140px;
+  left: 150px;
+  display: none;
+}
+
+.about-dot:hover::before {
+  display: block;
+}
+
+.about-dot:hover .about-dot-text {
+  display: block;
+}
+
 .about-prewiew-text {
   margin: 53px auto 80px;
 }

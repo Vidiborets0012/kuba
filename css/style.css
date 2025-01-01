@@ -276,6 +276,14 @@ body {
   top: 19px;
 }
 
+.about-prewiew-title {
+  margin-bottom: 38px;
+}
+
+.about-prewiew-text {
+  margin: 53px auto 80px;
+}
+
 .photo {
   padding-bottom: 80px;
 }
@@ -305,6 +313,7 @@ body {
 .photo-slider {
   max-width: 640px;
   margin: 0 auto;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.3);
 }
 
 .slick-arrow {

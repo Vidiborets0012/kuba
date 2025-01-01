@@ -269,7 +269,7 @@ body {
 }
 
 .photo {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .photo-title {
@@ -292,4 +292,31 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+
+.photo-slider {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.slick-arrow {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ecb84c;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  outline: none;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
 }

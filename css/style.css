@@ -509,6 +509,22 @@ body {
   line-height: 19px;
 }
 
+@media screen and (max-width: 840px) {
+  .about-item {
+    background-position: top;
+    padding: 382px 0 70px;
+    margin-bottom: 0;
+  }
+
+  .about-box {
+    margin: 0 auto;
+  }
+
+  .about-item:nth-child(even) {
+    background-position: top;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .header-title {
     font-size: 120px;
@@ -612,6 +628,43 @@ body {
   .header-title {
     font-size: 80px;
     line-height: 100px;
+  }
+
+  .about-text {
+    margin-bottom: 30px;
+  }
+
+  .about-box::before {
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-box::after {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .about-item:nth-child(even) .about-box::before {
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .about-item:nth-child(even) .about-box::after {
+    right: 10px;
+    top: 10px;
+  }
+
+  .about-box {
+    padding: 20px 20px;
+  }
+
+  .about-item {
+    padding: 382px 0 50px;
+  }
+
+  .about-box-title {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 

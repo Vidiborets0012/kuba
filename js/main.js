@@ -7,4 +7,9 @@ $(function () {
         nextArrow: '<button type="button" class="slick-next"><img src="images/photo-arrow-right.svg" alt=""></button>'
     });
 
+    $('.menu-btn').on('click', function () { 
+        $('.menu-list').slideToggle();
+    });
+
 });
+

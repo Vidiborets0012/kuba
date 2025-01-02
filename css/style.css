@@ -596,3 +596,9 @@ body {
     line-height: 100px;
   }
 }
+
+@media screen and (min-width: 700px) {
+  .menu-list {
+    display: flex !important;
+  }
+}

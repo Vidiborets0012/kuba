@@ -536,6 +536,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1075px) {
+  .footer-items {
+    padding-left: 60px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .about-dot-1 {
     top: 164px;
@@ -555,6 +561,14 @@ body {
   .about-dot-4 {
     bottom: 28px;
     right: 184px;
+  }
+
+  .footer-items {
+    padding-left: 0;
+  }
+
+  .footer-item-blog {
+    width: 248px;
   }
 }
 
@@ -601,6 +615,16 @@ body {
 
   .slick-prev {
     left: 20px;
+  }
+
+  .footer-items {
+    flex-wrap: wrap;
+  }
+
+  .footer-item {
+    width: 50%;
+    margin-bottom: 35px;
+    padding-right: 25px;
   }
 }
 
@@ -774,6 +798,15 @@ body {
   .about-box-title {
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .footer-items {
+    display: block;
+  }
+
+  .footer-item {
+    width: 100%;
+    padding-right: 0;
   }
 }
 
